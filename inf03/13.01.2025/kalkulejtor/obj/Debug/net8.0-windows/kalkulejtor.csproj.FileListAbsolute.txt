@@ -1,0 +1,16 @@
+C:\Users\Programista\Desktop\3CT\inf03\13.01.2025\kalkulejtor\bin\Debug\net8.0-windows\kalkulejtor.exe
+C:\Users\Programista\Desktop\3CT\inf03\13.01.2025\kalkulejtor\bin\Debug\net8.0-windows\kalkulejtor.deps.json
+C:\Users\Programista\Desktop\3CT\inf03\13.01.2025\kalkulejtor\bin\Debug\net8.0-windows\kalkulejtor.runtimeconfig.json
+C:\Users\Programista\Desktop\3CT\inf03\13.01.2025\kalkulejtor\bin\Debug\net8.0-windows\kalkulejtor.dll
+C:\Users\Programista\Desktop\3CT\inf03\13.01.2025\kalkulejtor\bin\Debug\net8.0-windows\kalkulejtor.pdb
+C:\Users\Programista\Desktop\3CT\inf03\13.01.2025\kalkulejtor\obj\Debug\net8.0-windows\kalkulejtor.Form1.resources
+C:\Users\Programista\Desktop\3CT\inf03\13.01.2025\kalkulejtor\obj\Debug\net8.0-windows\kalkulejtor.csproj.GenerateResource.cache
+C:\Users\Programista\Desktop\3CT\inf03\13.01.2025\kalkulejtor\obj\Debug\net8.0-windows\kalkulejtor.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Programista\Desktop\3CT\inf03\13.01.2025\kalkulejtor\obj\Debug\net8.0-windows\kalkulejtor.AssemblyInfoInputs.cache
+C:\Users\Programista\Desktop\3CT\inf03\13.01.2025\kalkulejtor\obj\Debug\net8.0-windows\kalkulejtor.AssemblyInfo.cs
+C:\Users\Programista\Desktop\3CT\inf03\13.01.2025\kalkulejtor\obj\Debug\net8.0-windows\kalkulejtor.csproj.CoreCompileInputs.cache
+C:\Users\Programista\Desktop\3CT\inf03\13.01.2025\kalkulejtor\obj\Debug\net8.0-windows\kalkulejtor.dll
+C:\Users\Programista\Desktop\3CT\inf03\13.01.2025\kalkulejtor\obj\Debug\net8.0-windows\refint\kalkulejtor.dll
+C:\Users\Programista\Desktop\3CT\inf03\13.01.2025\kalkulejtor\obj\Debug\net8.0-windows\kalkulejtor.pdb
+C:\Users\Programista\Desktop\3CT\inf03\13.01.2025\kalkulejtor\obj\Debug\net8.0-windows\kalkulejtor.genruntimeconfig.cache
+C:\Users\Programista\Desktop\3CT\inf03\13.01.2025\kalkulejtor\obj\Debug\net8.0-windows\ref\kalkulejtor.dll

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body>
+        <!-- Stwórz przycisk oraz element tekstowy po kliknieciu przycisku, element tekstowy powinien zniknac, a ponownie klikniecie powinno pokazywac  -->
+
+        <p id="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem explicabo omnis exercitationem corrupti quos molestias est, animi nam error commodi. Magnam reprehenderit repellendus odio nisi hic quis inventore in odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit et veniam quis voluptatibus ex explicabo repellat unde similique! Debitis minus et omnis itaque perferendis optio natus at ex error ullam! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus nobis harum numquam ducimus corrupti exercitationem officiis suscipit nesciunt, nam quia deserunt est unde illo dolor ullam blanditiis earum enim consectetur!</p>
+
+        <button id="przycisk">eszkeremoment</button>
+
+        <script>
+            let przelaczanie = document.getElementById("przycisk");
+            przelaczanie.addEventListener("click", ()=>{
+                let taxt = document.getElementById("text");
+                if(text.style.display === 'none'){
+                    text.style.display = 'block';
+                    } else {
+                        text.style.display = 'none';
+                }
+            })
+        </script>
+        
+    </body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie 3</title>
+</head>
+    <body>
+
+        <section>
+            <h1>Pobiera Dane z Map</h1>
+        </section>
+
+        <section>
+            <p id="wynik">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nulla cum, facere dolorum eum officiis. Officiis est quaerat atque vitae assumenda molestias. Optio nostrum veniam dolores suscipit a, labore hic.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nulla cum, facere dolorum eum officiis. Officiis est quaerat atque vitae assumenda molestias. Optio nostrum veniam dolores suscipit a, labore hic.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nulla cum, facere dolorum eum officiis. Officiis est quaerat atque vitae assumenda molestias. Optio nostrum veniam dolores suscipit a, labore hic.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nulla cum, facere dolorum eum officiis. Officiis est quaerat atque vitae assumenda molestias. Optio nostrum veniam dolores suscipit a, labore hic.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nulla cum, facere dolorum eum officiis. Officiis est quaerat atque vitae assumenda molestias. Optio nostrum veniam dolores suscipit a, labore hic.Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum nulla cum, facere dolorum eum officiis. Officiis est quaerat atque vitae assumenda molestias. Optio nostrum veniam dolores suscipit a, labore hic.
+            </p>
+        </section>
+
+        <article id="mapa">
+            
+        </article>
+
+        <button id="pobierz">POBIERZ</button>
+
+        <script>
+
+            const pobierz = document.getElementById("pobierz");
+            const mapa = document.getElementById("mapa");
+            const wynik = document.getElementById("wynik");
+
+            const tablicaName = {
+                imie:["Arek","Bob","Stefan","Michael"],
+                wiek:["44","89","23","9"]
+            };
+
+            pobierz.addEventListener("click", function(){
+                wynik.innerHTML = "Pobrano liste";
+                mapa.innerHTML = "<ul>";
+                tablicaName.map((v,i)=>{
+                    mapa.innerHTML += v + "<br/>";
+                });
+                mapa.innerHTML += "<ul>";
+            });
+
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,84 @@
+html, body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    margin: 0%;
+}
+a{
+    color: white;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+header, footer{
+    background-color: maroon;
+    text-align: center;
+    padding: 2px;
+}
+section.lewy{
+    background-color: LightSalmon;
+    height: 527px;
+    width: 15%;
+}
+section.środkowy{
+    background-color: LightSalmon;
+    height: 527px;
+    width: 70%;
+}
+section.prawy{
+    background-color: LightSalmon;
+    height: 527px;
+    width: 15%;
+
+}
+section.miniatury{
+    background-color: Maroon;
+    height: 70px;
+}
+button{
+    background-color: LightSalmon;
+    color: maroon;
+    font-size: 400%;
+    display: block;
+    margin: auto;
+    padding-top: 210px;
+    border: none;
+    cursor:cell;
+}
+img.miniatury{
+    height: 70px;
+    padding-left: 50px;
+
+}
+
+img.środkowy{
+    display: block;
+    margin: auto;
+    padding-top: 45px;
+}
+@keyframes mymove { 
+    from { 
+        transform: scale(100%);
+    } 
+    to   { 
+        transform: scale(120%);
+    } 
+}
+.środkowy img:hover{
+    animation: mymove 5s;
+    
+}
+
+@keyframes lala { 
+    from { 
+        padding-left: 50px;
+    } 
+    to   { 
+        padding-left: 0;
+    } 
+}
+.miniatury img{
+    animation: lala 4s forwards;
+    
+}
+

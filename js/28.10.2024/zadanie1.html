@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button id="przycisk" onclick="zmianatla()">czerwonetlo</button>
+    <button id="przycisk" onclick="zmianaparagrafa()">zielonyparagraf</button>
+
+    <h3 name="eszkere">To jest paragraf</h3>
+
+    <script>
+        function zmianatla(){
+            document.body.style.backgroundColor = "red";
+        }
+        function zmianaparagrafa(){
+            document.querySelector("h3").style.color = "green";
+        }
+    </script>
+
+</body>
+</html>

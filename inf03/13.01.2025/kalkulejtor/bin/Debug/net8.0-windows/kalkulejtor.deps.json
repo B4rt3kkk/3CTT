@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "kalkulejtor/1.0.0": {
+        "runtime": {
+          "kalkulejtor.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "kalkulejtor/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

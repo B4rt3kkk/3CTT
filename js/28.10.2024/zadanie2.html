@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <body>
+       <!-- Utwórz listę <ul></ul> z kilkoma elemantami oraz przycisk, po kliknięciu przyciusku dodan nowy element do listy  -->
+
+       <ul id="mojalista">
+            <li>el 1</li>
+            <li>el 2</li>
+       </ul>
+
+       <button id="przycisk">eszkere</button>
+
+       <script>
+        document.getElementById("przycisk").addEventListener("click", function(){
+            let nowyElement = document.createElement("li");
+            nowyElement.textContent = "Nowy element ";
+            document.getElementById("mojalista").appendChild(nowyElement);
+
+        })
+       </script>
+    </body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie 1</title>
+</head>
+    <body>
+        <script>
+
+            // let mojaMapa = tegeszmeges.map();
+            // let mojFilter = tegeszmeges.filter();
+            // let mojaAmulacja = tegeszmeges.reduce();
+            // let moejSzeukane = tegeszmeges.find();
+            // let mojaPetla = tegeszmeges.forEach();
+
+            let tablica_liczb = [1,2,3,4,5,6,7,8,9,10];
+            let nowa_tablica_liczb = tablica_liczb.map((element)=>element*10);
+            console.log(nowa_tablica_liczb);
+            tablica_liczb.map(function(element){
+                console.log(element)
+            });
+
+            //==================================================================
+
+            let nowa_tablica_liczb_2 = tablica_liczb.map((val,index,tablica_liczb)=>{
+                console.log(val + tablica_liczb[index]);
+            });
+        </script>
+    </body>
+</html>

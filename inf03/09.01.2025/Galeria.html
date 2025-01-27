@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styl.css">
+    <title>Biuro turystyczne</title>
+</head>
+    <body>
+
+        <header>
+            <nav>
+                <h1>Zwiedzamy Polskę</h1>
+            </nav>
+        </header>
+
+        <main>
+
+        <section class="lewy">
+            <button id="prevBtn"> &lt; </button>
+        </section>
+
+        <section class="środkowy">
+            <img id="mainImage" src="1.jpg" alt="Aktywne zdjęcie" class="środkowy">
+        </section>
+
+        <section class="prawy">
+            <button id="nextBtn"> &gt; </button>
+        </section>
+
+    </main>
+
+        <section class="miniatury">
+            <img src="1.jpg" alt="Gdańsk" class="miniatury">
+            <img src="2.jpg" alt="Kraków" class="miniatury">
+            <img src="3.jpg" alt="Niedzica" class="miniatury">
+            <img src="4.jpg" alt="Pieniny" class="miniatury">
+            <img src="5.jpg" alt="Szklarska Poręba" class="miniatury">
+            <img src="6.jpg" alt="Tatry" class="miniatury">
+            <img src="7.jpg" alt="Wrocław" class="miniatury">
+        </section>
+
+        <footer>
+            <h3><p>Autorem galerii jest: Skibidi Sigma Locked In Alien Wolf Giga Rizzler !!!</p></h3>
+            <a href="https://pixabay.com/">Więcej zdjęć</a>
+        </footer>
+
+        <script>
+            
+            const images = [
+                "1.jpg",
+                "2.jpg",
+                "3.jpg",
+                "4.jpg",
+                "5.jpg",
+                "6.jpg",
+                "7.jpg"
+            ];
+
+            let currentIndex = 0;
+
+            // Funkcja zmieniająca obrazek na następny
+            function showImage(index) {
+                const imgElement = document.getElementById("mainImage");
+                imgElement.src = images[index];
+            }
+
+            // Obsługuje kliknięcie na przycisk "następny"
+            document.getElementById("nextBtn").addEventListener("click", function() {
+                currentIndex = (currentIndex + 1) % images.length; // Zwiększa index i resetuje go, gdy osiągnie koniec tablicy
+                showImage(currentIndex);
+            });
+
+            // Obsługuje kliknięcie na przycisk "poprzedni"
+            document.getElementById("prevBtn").addEventListener("click", function() {
+                currentIndex = (currentIndex - 1 + images.length) % images.length; // Zmniejsza index i resetuje go, gdy osiągnie początek tablicy
+                showImage(currentIndex);
+            });
+        </script>
+
+    </body>
+</html>
