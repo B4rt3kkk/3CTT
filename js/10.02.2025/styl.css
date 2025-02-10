@@ -1,0 +1,54 @@
+html, body{
+    margin: 0%;
+    font-family: 'Courier New', Courier, monospace;
+    justify-content: center;
+    display: flex;
+}
+.Tekst{
+    display: flex;
+    justify-content: center;
+    width: 432.08px;
+}
+textarea{
+    width: 100%;
+    height: 500px;
+    text-align: top;
+    padding: 2%;
+    box-shadow: 5px 10px 10px 2px gainsboro;
+
+}
+.box{
+    margin-top: 30%;
+}
+h2{
+    text-align: center;
+    width: 432.08px;
+
+}
+.przycisk{
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+button{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: honeydew;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.2rem;
+    box-shadow: 5px 10px 10px 2px gainsboro;
+    cursor: pointer;
+    transition: 1s ease;
+
+}
+button:hover{
+    transition: 0.5s ease;
+    background-color: white;
+    color: black;
+    box-shadow: none;
+
+}

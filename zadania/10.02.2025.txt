@@ -1,0 +1,5 @@
+utwórz czat w php + js + XMLHTTPrequest (klasyczne ujęcie + methoda POST)
+
+utwórz czat w php + js + XMLHTTPrequest (jQuery ujęcie + methoda POST)
+
+utwórz czat w php + js + webSocked
