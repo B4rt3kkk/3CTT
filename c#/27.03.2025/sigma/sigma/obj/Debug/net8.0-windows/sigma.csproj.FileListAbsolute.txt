@@ -26,3 +26,7 @@ C:\Users\1CT\Desktop\3CTT\c#\27.03.2025\sigma\sigma\obj\Debug\net8.0-windows\ref
 C:\Users\1CT\Desktop\3CTT\c#\27.03.2025\sigma\sigma\obj\Debug\net8.0-windows\sigma.pdb
 C:\Users\1CT\Desktop\3CTT\c#\27.03.2025\sigma\sigma\obj\Debug\net8.0-windows\sigma.genruntimeconfig.cache
 C:\Users\1CT\Desktop\3CTT\c#\27.03.2025\sigma\sigma\obj\Debug\net8.0-windows\ref\sigma.dll
+C:\Users\1CT\Desktop\3CTT\c#\27.03.2025\sigma\sigma\obj\Debug\net8.0-windows\sigma.Properties.Resources.resources
+C:\Users\1CT\Desktop\3CTT\c#\27.03.2025\sigma\sigma\bin\Debug\net8.0-windows\LiveCharts.WinForms.dll
+C:\Users\1CT\Desktop\3CTT\c#\27.03.2025\sigma\sigma\bin\Debug\net8.0-windows\LiveCharts.Wpf.dll
+C:\Users\1CT\Desktop\3CTT\c#\27.03.2025\sigma\sigma\bin\Debug\net8.0-windows\LiveCharts.dll

@@ -51,6 +51,10 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "dependencies": {
+            "LiveCharts.WinForms.NetCore3": {
+              "target": "Package",
+              "version": "[0.9.8, )"
+            },
             "Opc.UaFx.Client": {
               "target": "Package",
               "version": "[2.42.5, )"

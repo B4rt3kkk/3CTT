@@ -38,13 +38,14 @@
             textBox3 = new TextBox();
             button3 = new Button();
             button4 = new Button();
+            cartesianChart1 = new LiveCharts.WinForms.CartesianChart();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // textBox1
             // 
             textBox1.Font = new Font("Segoe UI", 20F);
-            textBox1.Location = new Point(56, 31);
+            textBox1.Location = new Point(162, 13);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(490, 43);
             textBox1.TabIndex = 0;
@@ -54,7 +55,7 @@
             // button1
             // 
             button1.Font = new Font("Segoe UI", 15F);
-            button1.Location = new Point(596, 31);
+            button1.Location = new Point(253, 157);
             button1.Name = "button1";
             button1.Size = new Size(119, 43);
             button1.TabIndex = 1;
@@ -65,7 +66,7 @@
             // button2
             // 
             button2.Font = new Font("Segoe UI", 15F);
-            button2.Location = new Point(596, 108);
+            button2.Location = new Point(442, 157);
             button2.Name = "button2";
             button2.Size = new Size(119, 43);
             button2.TabIndex = 2;
@@ -76,7 +77,7 @@
             // pictureBox1
             // 
             pictureBox1.BackColor = Color.Red;
-            pictureBox1.Location = new Point(56, 108);
+            pictureBox1.Location = new Point(162, 79);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(490, 43);
             pictureBox1.TabIndex = 3;
@@ -85,7 +86,7 @@
             // textBox2
             // 
             textBox2.Font = new Font("Segoe UI", 20F);
-            textBox2.Location = new Point(159, 239);
+            textBox2.Location = new Point(212, 240);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(387, 43);
             textBox2.TabIndex = 4;
@@ -96,26 +97,27 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 20F);
-            label1.Location = new Point(36, 239);
+            label1.Location = new Point(42, 240);
             label1.Name = "label1";
-            label1.Size = new Size(116, 37);
+            label1.Size = new Size(122, 37);
             label1.TabIndex = 5;
-            label1.Text = "NodelID";
+            label1.Text = "NodelID:";
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI", 20F);
-            label2.Location = new Point(56, 349);
+            label2.Location = new Point(53, 350);
             label2.Name = "label2";
-            label2.Size = new Size(82, 37);
+            label2.Size = new Size(88, 37);
             label2.TabIndex = 7;
-            label2.Text = "Value";
+            label2.Text = "Value:";
+            
             // 
             // textBox3
             // 
             textBox3.Font = new Font("Segoe UI", 20F);
-            textBox3.Location = new Point(159, 346);
+            textBox3.Location = new Point(212, 347);
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(387, 43);
             textBox3.TabIndex = 6;
@@ -123,8 +125,9 @@
             // 
             // button3
             // 
+            button3.Cursor = Cursors.Hand;
             button3.Font = new Font("Segoe UI", 15F);
-            button3.Location = new Point(596, 239);
+            button3.Location = new Point(649, 240);
             button3.Name = "button3";
             button3.Size = new Size(119, 43);
             button3.TabIndex = 8;
@@ -134,8 +137,9 @@
             // 
             // button4
             // 
+            button4.Cursor = Cursors.Hand;
             button4.Font = new Font("Segoe UI", 15F);
-            button4.Location = new Point(596, 343);
+            button4.Location = new Point(649, 344);
             button4.Name = "button4";
             button4.Size = new Size(119, 43);
             button4.TabIndex = 9;
@@ -143,11 +147,23 @@
             button4.UseVisualStyleBackColor = true;
             button4.Click += button4_Click;
             // 
+            // cartesianChart1
+            // 
+            cartesianChart1.BackColor = SystemColors.InactiveBorder;
+            cartesianChart1.Location = new Point(53, 409);
+            cartesianChart1.Name = "cartesianChart1";
+            cartesianChart1.Size = new Size(761, 211);
+            cartesianChart1.TabIndex = 10;
+            cartesianChart1.Text = "cartesianChart1";
+            
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            BackColor = SystemColors.GradientInactiveCaption;
+            ClientSize = new Size(846, 632);
+            Controls.Add(cartesianChart1);
             Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(label2);
@@ -160,7 +176,7 @@
             Controls.Add(textBox1);
             Name = "Form1";
             Text = "Form1";
-            Load += Form1_Load;
+            
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -178,5 +194,6 @@
         private TextBox textBox3;
         private Button button3;
         private Button button4;
+        private LiveCharts.WinForms.CartesianChart cartesianChart1;
     }
 }
